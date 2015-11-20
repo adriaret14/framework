@@ -8,11 +8,15 @@ class Core{
 				//echo $_SERVER['REQUEST_URI'];
 				Request::retrieve();
 				$controller=Request::getCont();
-				echo $controller.'</br>';
+				//ayuda en los errores
+				coder::code($controller);
 				$action=Request::getAct();
-				echo $action.'</br>';
+				//ayuda en los errores
+				coder::code($action);
 				$params=Request::getParams();
 				//Printamos los parametros
 				print_r($params);
+				//ayuda en los errores
+				coder::codear($params);
 		}
 }
