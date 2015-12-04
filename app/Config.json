@@ -1,7 +1,15 @@
 {
-	"driver":"mysql",
-	"dbname":"",
-	"dbhost":"",
-	"dbuser":"",
-	"dbpass":""
+	"dbconf":
+	{
+		"driver":"mysql",
+		"dbname":"",
+		"dbhost":"",
+		"dbuser":"",
+		"dbpass":""
+	},
+	"app":
+	{
+		"title": "M",
+		"version": "0.1"
+	}
 }

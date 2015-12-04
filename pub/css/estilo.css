@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+body{
+	/*background-color:red;*/
+	background-image: url(../img/fondo_eeuu.jpg);
+}
+#header{
+	background-color:#110000;
+	width:100%;
+	height:200px;
+	opacity:0.9;
+}
+#menu{
+	background-color:#2F2F33;
+	width:100%;
+	height:50px;
+	opacity:0.9;
+}
+#logo{
+	width:200px;
+	height:200px;
+	float:left;
+}
+h1{
+	font-size:40px;
+	color:#FFF;
+	text-align:center;
+	float:left;
+}
+#logo2{
+	width:200px;
+	height:200px;
+	float:right;
+}
+#footer{
+	background-color:#110000;
+	width:100%;
+	height:50px;
+	opacity:0.9;
+	margin-top:500px;
+	color:#FFF;
+	text-align:center;
+}
+ul{
+	text-align:center;
+}
+li{
+	display:inline-block;
+	color:#FFF;
+	padding:15px 10px 15px 10px;
+	border:solid;
+	border-color:#FFF;
+}
+li:nth-child(odd){
+	background-color:#0905B2;
+}
+li:nth-child(even){
+	background-color:#9A1002;
+}
